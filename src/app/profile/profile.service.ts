@@ -21,7 +21,7 @@ export class ProfileService {
       githurl: 'https://github.com/amitgore147/EmployeeCentral-Angular-Web',
       mediumlink:
         'https://itnext.io/read-data-from-google-spreadsheet-in-angular-209ee74b6cb4',
-      imgUrl: '../../assets/images/EmployeeCentral.png',
+      imgUrl: 'assets/images/EmployeeCentral.png',
       tech: 'Angular 15 , ASP.NET Core, MSSQL',
     },
 
@@ -34,7 +34,7 @@ export class ProfileService {
       githurl: 'https://github.com/amitgore147/EmployeeCentral-Angular-Web',
       mediumlink:
         'https://itnext.io/read-data-from-google-spreadsheet-in-angular-209ee74b6cb4',
-      imgUrl: '../../assets/images/EmployeeCentral.png',
+      imgUrl: 'assets/images/EmployeeCentral.png',
       tech: 'Angular 15 , ASP.NET Core, MSSQL',
     },
 
@@ -47,7 +47,7 @@ export class ProfileService {
       githurl: 'https://github.com/amitgore147/EmployeeCentral-Angular-Web',
       mediumlink:
         'https://itnext.io/read-data-from-google-spreadsheet-in-angular-209ee74b6cb4',
-      imgUrl: '../../assets/images/EmployeeCentral.png',
+      imgUrl: 'assets/images/EmployeeCentral.png',
       tech: 'Angular 15 , ASP.NET Core, MSSQL',
     },
 
@@ -60,7 +60,7 @@ export class ProfileService {
       githurl: 'https://github.com/amitgore147/EmployeeCentral-Angular-Web',
       mediumlink:
         'https://itnext.io/read-data-from-google-spreadsheet-in-angular-209ee74b6cb4',
-      imgUrl: '../../assets/images/EmployeeCentral.png',
+      imgUrl: 'assets/images/EmployeeCentral.png',
       tech: 'Angular 15 , ASP.NET Core, MSSQL',
     },
 
@@ -73,7 +73,7 @@ export class ProfileService {
       githurl: 'https://github.com/amitgore147/EmployeeCentral-Angular-Web',
       mediumlink:
         'https://itnext.io/read-data-from-google-spreadsheet-in-angular-209ee74b6cb4',
-      imgUrl: '../../assets/images/EmployeeCentral.png',
+      imgUrl: 'assets/images/EmployeeCentral.png',
       tech: 'Angular 15 , ASP.NET Core, MSSQL',
     },
 
@@ -86,7 +86,7 @@ export class ProfileService {
       githurl: 'https://github.com/amitgore147/EmployeeCentral-Angular-Web',
       mediumlink:
         'https://itnext.io/read-data-from-google-spreadsheet-in-angular-209ee74b6cb4',
-      imgUrl: '../../assets/images/EmployeeCentral.png',
+      imgUrl: 'assets/images/EmployeeCentral.png',
       tech: 'Angular 15 , ASP.NET Core, MSSQL',
     },
   ];
