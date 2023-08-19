@@ -19,8 +19,6 @@ export class ProfileService {
       desc: '',
       livedemo: 'https://amitgore147.github.io/EmployeeCentral-Angular-Web/',
       githurl: 'https://github.com/amitgore147/EmployeeCentral-Angular-Web',
-      mediumlink:
-        'https://itnext.io/read-data-from-google-spreadsheet-in-angular-209ee74b6cb4',
       imgUrl: 'assets/images/EmployeeCentral.png',
       tech: 'Angular 15 , ASP.NET Core, MSSQL',
     },
@@ -28,14 +26,12 @@ export class ProfileService {
     {
       id: 2,
       title:
-        'The EmployeeCentral is a web-based application built using .NET Core and Angular',
+        'The Portfolio is a web-based application built using Angular , HTML, CSS, TypeScript',
       desc: '',
-      livedemo: 'https://amitgore147.github.io/EmployeeCentral-Angular-Web/',
-      githurl: 'https://github.com/amitgore147/EmployeeCentral-Angular-Web',
-      mediumlink:
-        'https://itnext.io/read-data-from-google-spreadsheet-in-angular-209ee74b6cb4',
-      imgUrl: 'assets/images/EmployeeCentral.png',
-      tech: 'Angular 15 , ASP.NET Core, MSSQL',
+      livedemo: 'https://amitgore147.github.io/Amit-Portfolio/',
+      githurl: 'https://github.com/amitgore147/Amit-Portfolio',
+      imgUrl: 'assets/images/Portfolio.png',
+      tech: 'Angular , HTML, CSS, TypeScript',
     },
 
     {
