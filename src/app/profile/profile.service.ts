@@ -13,7 +13,7 @@ export class ProfileService {
 
   projects: any = [
     {
-      id: 1,
+      id: 2,
       title:
         'The EmployeeCentral is a web-based application built using .NET Core and Angular',
       desc: '',
@@ -24,7 +24,7 @@ export class ProfileService {
     },
 
     {
-      id: 2,
+      id: 1,
       title:
         'The Portfolio is a web-based application built using Angular , HTML, CSS, TypeScript',
       desc: '',
