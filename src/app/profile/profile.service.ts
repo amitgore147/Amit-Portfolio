@@ -13,17 +13,6 @@ export class ProfileService {
 
   projects: any = [
     {
-      id: 2,
-      title:
-        'The EmployeeCentral is a web-based application built using .NET Core and Angular',
-      desc: '',
-      livedemo: 'https://amitgore147.github.io/EmployeeCentral-Angular-Web/',
-      githurl: 'https://github.com/amitgore147/EmployeeCentral-Angular-Web',
-      imgUrl: 'assets/images/EmployeeCentral.png',
-      tech: 'Angular 15 , ASP.NET Core, MSSQL',
-    },
-
-    {
       id: 1,
       title:
         'The Portfolio is a web-based application built using Angular , HTML, CSS, TypeScript',
@@ -32,6 +21,17 @@ export class ProfileService {
       githurl: 'https://github.com/amitgore147/Amit-Portfolio',
       imgUrl: 'assets/images/Portfolio.png',
       tech: 'Angular , HTML, CSS, TypeScript',
+    },
+
+    {
+      id: 2,
+      title:
+        'The EmployeeCentral is a web-based application built using .NET Core and Angular',
+      desc: '',
+      livedemo: 'https://amitgore147.github.io/EmployeeCentral-Angular-Web/',
+      githurl: 'https://github.com/amitgore147/EmployeeCentral-Angular-Web',
+      imgUrl: 'assets/images/EmployeeCentral.png',
+      tech: 'Angular 15 , ASP.NET Core, MSSQL',
     },
 
     {
@@ -105,19 +105,40 @@ export class ProfileService {
     },
     {
       id: '8',
-      skill: 'Microsoft Azure',
+      skill: 'HTML',
       // progress: '75%',
     },
     {
       id: '9',
-      skill: 'Git, GitHub',
+      skill: 'CSS',
       //progress: '70%',
     },
     {
       id: '10',
+      skill: 'JavaScript',
+      //progress: '70%',
+    },
+    {
+      id: '11',
+      skill: 'TypeScript',
+      //progress: '70%',
+    },
+    {
+      id: '12',
+      skill: 'Microsoft Azure',
+      // progress: '75%',
+    },
+    {
+      id: '13',
+      skill: 'Git, GitHub',
+      //progress: '70%',
+    },
+    {
+      id: '14',
       skill: 'Azure DevOps',
       //progress: '70%',
     },
+
   ];
 
   educationData: any = [
