@@ -41,7 +41,7 @@ export class ProfileService {
       desc: '',
       livedemo: 'https://amitgore147.github.io/Blogging-App/user/article',
       githurl: 'https://github.com/amitgore147/Blogging-App',
-      imgUrl: 'assets/images/EmployeeCentral.png',
+      imgUrl: 'assets/images/BloggingApp.png',
       tech: 'Angular , HTML, CSS, TypeScript',
     },
 
