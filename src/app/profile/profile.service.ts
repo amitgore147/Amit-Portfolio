@@ -37,16 +37,27 @@ export class ProfileService {
     {
       id: 3,
       title:
-        'The Blogging App is a web-based application built using Angular , HTML, CSS, TypeScript',
+        'The Calculator is a web-based application built using Angular , HTML, CSS, TypeScript',
       desc: '',
-      livedemo: 'https://amitgore147.github.io/Blogging-App/user/article',
-      githurl: 'https://github.com/amitgore147/Blogging-App',
-      imgUrl: 'assets/images/BloggingApp.png',
-      tech: 'Angular , HTML, CSS, TypeScript',
+      livedemo: 'https://amitgore147.github.io/Calculator-App/',
+      githurl: 'https://github.com/amitgore147/Calculator-App',
+      imgUrl: 'assets/images/CalculatorApp.png',
+      tech: 'Angular 15 , HTML, CSS, TypeScript',
     },
 
     {
       id: 4,
+      title:
+        'The Calculator is a web-based application built using Angular , HTML, CSS, TypeScript',
+      desc: '',
+      livedemo: 'https://amitgore147.github.io/Calculator-App/',
+      githurl: 'https://github.com/amitgore147/Calculator-App',
+      imgUrl: 'assets/images/CalculatorApp.png',
+      tech: 'Angular 15 , HTML, CSS, TypeScript',
+    },
+
+    {
+      id: 5,
       title:
         'The Calculator is a web-based application built using Angular , HTML, CSS, TypeScript',
       desc: '',
