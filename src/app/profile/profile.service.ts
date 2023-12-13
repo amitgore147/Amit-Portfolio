@@ -20,29 +20,29 @@ export class ProfileService {
       livedemo: 'https://amitgore147.github.io/Amit-Portfolio/',
       githurl: 'https://github.com/amitgore147/Amit-Portfolio',
       imgUrl: 'assets/images/Portfolio.png',
-      tech: 'Angular , HTML, CSS, TypeScript',
+      tech: 'Angular , HTML, CSS, JavaScript, TypeScript',
     },
 
     {
       id: 2,
       title:
-        'The EmployeeCentral is a web-based application built using .NET Core and Angular',
+        'A simple and classic implementation of the Tic Tac Toe (X and O) game in HTML, CSS, JavaScript.',
       desc: '',
-      livedemo: 'https://amitgore147.github.io/EmployeeCentral-Angular-Web/',
-      githurl: 'https://github.com/amitgore147/EmployeeCentral-Angular-Web',
-      imgUrl: 'assets/images/EmployeeCentral.png',
-      tech: 'Angular 15 , ASP.NET Core, MSSQL',
+      livedemo: 'https://amitgore147.github.io/Tic-Tac-Toe/',
+      githurl: 'https://github.com/amitgore147/Tic-Tac-Toe',
+      imgUrl: 'assets/images/Tic-Tac-Toe-Github.png',
+      tech: 'HTML, CSS, JavaScript                                                ',
     },
 
     {
       id: 3,
       title:
-        'The Calculator is a web-based application built using Angular , HTML, CSS, TypeScript',
+        'A landing page inspired by the design of Amazon. Built with HTML, CSS.',
       desc: '',
-      livedemo: 'https://amitgore147.github.io/Calculator-App/',
-      githurl: 'https://github.com/amitgore147/Calculator-App',
-      imgUrl: 'assets/images/CalculatorApp.png',
-      tech: 'Angular 15 , HTML, CSS, TypeScript',
+      livedemo: 'https://amitgore147.github.io/Amazon-Clone/',
+      githurl: 'https://github.com/amitgore147/Amazon-Clone',
+      imgUrl: 'assets/images/Amazon-Github.png',
+      tech: 'HTML, CSS',
     },
 
     {
@@ -59,19 +59,19 @@ export class ProfileService {
     {
       id: 5,
       title:
-        'The Calculator is a web-based application built using Angular , HTML, CSS, TypeScript',
+        'The EmployeeCentral is a web-based application built using .NET Core and Angular',
       desc: '',
-      livedemo: 'https://amitgore147.github.io/Calculator-App/',
-      githurl: 'https://github.com/amitgore147/Calculator-App',
-      imgUrl: 'assets/images/CalculatorApp.png',
-      tech: 'Angular 15 , HTML, CSS, TypeScript',
+      livedemo: 'https://amitgore147.github.io/EmployeeCentral-Angular-Web/',
+      githurl: 'https://github.com/amitgore147/EmployeeCentral-Angular-Web',
+      imgUrl: 'assets/images/EmployeeCentral.png',
+      tech: 'Angular 15 , ASP.NET Core, MSSQL',
     },
   ];
 
-  about2 = `Software Developer with 1.8+ years of experience .
+  about2 = `Software Developer with 2.2+ years of experience .
   Worked with Software Development Life Cycle(SDLC) and  agile methodologies .
-  Expertise in Angular 2+ versions, DotNet Core and UI with Responsive Designs .
-  Have good understanding of C#, DotNet Core, Bootstrap, MSSQL, IIS Server, and GitHub`;
+  Expertise in Angular 2+ versions, UI with Responsive Designs .
+  Have good understanding of HTML, CSS, JavaScript, TypeScript, Bootstrap, Angular, MSSQL, AWS S3, Cloudfront, Git and GitHub`;
 
   about =
     'Lover of innovation and everything related to generate new knowledge. Face problems with a smile and solve them as soon as possible. Very calculated about the time I spend and work I do.';
@@ -82,74 +82,53 @@ export class ProfileService {
     {
       id: '1',
       skill: 'MSSQL Server',
-      //progress: '85%',
+      progress: '85%',
     },
     {
       id: '2',
-      skill: 'C#, DotNet Core',
-      //progress: '80%',
+      skill: 'HTML',
+      progress: '80%',
     },
     {
       id: '3',
-      skill: 'EF Core',
-      //progress: '80%',
+      skill: 'CSS',
+      progress: '80%',
     },
     {
       id: '4',
-      skill: 'ASP.NET Core Web API',
+      skill: 'JavaScript',
       // progress: '75%',
     },
     {
       id: '5',
-      skill: 'ASP.NET Core MVC',
+      skill: 'TypeScript',
       // progress: '75%',
     },
     {
       id: '6',
-      skill: 'SOLID Principles',
-      //progress: '70%',
+      skill: 'Angular',
+      progress: '70%',
     },
     {
       id: '7',
-      skill: 'Angular',
+      skill: 'Bootstrap',
       // progress: '75%',
     },
     {
       id: '8',
-      skill: 'HTML',
+      skill: 'AWS S3',
       // progress: '75%',
     },
     {
       id: '9',
-      skill: 'CSS',
-      //progress: '70%',
+      skill: 'Cloudfront',
+      progress: '70%',
     },
     {
       id: '10',
-      skill: 'JavaScript',
-      //progress: '70%',
-    },
-    {
-      id: '11',
-      skill: 'TypeScript',
-      //progress: '70%',
-    },
-    {
-      id: '12',
-      skill: 'Microsoft Azure',
-      // progress: '75%',
-    },
-    {
-      id: '13',
       skill: 'Git, GitHub',
-      //progress: '70%',
+      progress: '70%',
     },
-    {
-      id: '14',
-      skill: 'Azure DevOps',
-      //progress: '70%',
-    },
-
   ];
 
   educationData: any = [
@@ -189,7 +168,7 @@ Completed my Secondary school with 84.60%.`,
       location: 'Pune',
       timeline: 'Oct 2021 to Present',
       role: 'Software Developer',
-      work: 'Working as a full stack developer . Responsible for handling the UI in Angular and Managing the api calls in DotNet Core.',
+      work: 'Working as a Angular developer . Responsible for handling the UI in Angular and Managing the api calls in DotNet Core.',
     },
   ];
 
@@ -212,6 +191,7 @@ Completed my Secondary school with 84.60%.`,
   }
 
   exprience(): Observable<any> {
+    debugger
     // return this.http.get(this.baseUrl + 'exprience');
     return this.exprienceData;
   }
