@@ -22,9 +22,19 @@ export class ProfileService {
       imgUrl: 'assets/images/Portfolio.png',
       tech: 'Angular , HTML, CSS, JavaScript, TypeScript',
     },
-
     {
       id: 2,
+      title:
+        'The E-Comm is a e-commerce website built using Angular , HTML, CSS, TypeScript',
+      desc: '',
+      livedemo: 'https://amitgore147.github.io/Angular-Ecomm/',
+      githurl: 'https://github.com/amitgore147/Angular-Ecomm',
+      imgUrl: 'assets/images/EcommProject.png',
+      tech: 'Angular , HTML, CSS, JavaScript, TypeScript, JSON server',
+    },
+
+    {
+      id: 3,
       title:
         'A simple and classic implementation of the Tic Tac Toe (X and O) game in HTML, CSS, JavaScript.',
       desc: '',
@@ -35,7 +45,7 @@ export class ProfileService {
     },
 
     {
-      id: 3,
+      id: 4,
       title:
         'A landing page inspired by the design of Amazon. Built with HTML, CSS.',
       desc: '',
@@ -46,7 +56,7 @@ export class ProfileService {
     },
 
     {
-      id: 4,
+      id: 5,
       title:
         'The Calculator is a web-based application built using Angular , HTML, CSS, TypeScript',
       desc: '',
@@ -57,7 +67,7 @@ export class ProfileService {
     },
 
     {
-      id: 5,
+      id: 6,
       title:
         'The EmployeeCentral is a web-based application built using .NET Core and Angular',
       desc: '',
