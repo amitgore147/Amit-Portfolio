@@ -58,12 +58,12 @@ export class ProfileService {
     {
       id: 5,
       title:
-        'The Calculator is a web-based application built using Angular , HTML, CSS, TypeScript',
+        'The Rock Paper Scissors is a web-based application built using HTML, CSS, TypeScript',
       desc: '',
-      livedemo: 'https://amitgore147.github.io/Calculator-App/',
-      githurl: 'https://github.com/amitgore147/Calculator-App',
-      imgUrl: 'assets/images/CalculatorApp.png',
-      tech: 'Angular 15 , HTML, CSS, TypeScript',
+      livedemo: 'https://amitgore147.github.io/Rock-Paper-Scissors/',
+      githurl: 'https://github.com/amitgore147/Rock-Paper-Scissors',
+      imgUrl: 'assets/images/Rock-Paper-Scissors-Game.png',
+      tech: 'HTML, CSS, JavaScript',
     },
 
     {
