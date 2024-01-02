@@ -81,19 +81,19 @@ export class ProfileService {
   about2 = `Software Developer with 2.2+ years of experience .
   Worked with Software Development Life Cycle(SDLC) and  agile methodologies .
   Expertise in Angular 2+ versions, UI with Responsive Designs .
-  Have good understanding of HTML, CSS, JavaScript, TypeScript, Bootstrap, Angular, MSSQL, AWS S3, Cloudfront, Git and GitHub`;
+  Have good understanding of HTML, CSS, JavaScript, TypeScript, Bootstrap, Angular, AWS S3, Cloudfront, Git and GitHub`;
 
-  about =
-    'Lover of innovation and everything related to generate new knowledge. Face problems with a smile and solve them as soon as possible. Very calculated about the time I spend and work I do.';
+  about ='';
+    // 'Lover of innovation and everything related to generate new knowledge. Face problems with a smile and solve them as soon as possible. Very calculated about the time I spend and work I do.';
   resumeurl =
     'https://drive.google.com/file/d/1dFzOdjLdLPPBNC6-7iqMMbi9d8Zc55ND/view?usp=drive_link';
 
   skillsData: any = [
-    {
-      id: '1',
-      skill: 'MSSQL Server',
-      progress: '85%',
-    },
+    // {
+    //   id: '1',
+    //   skill: 'MSSQL Server',
+    //   progress: '85%',
+    // },
     {
       id: '2',
       skill: 'HTML',
@@ -139,6 +139,21 @@ export class ProfileService {
       skill: 'Git, GitHub',
       progress: '70%',
     },
+    {
+      id: '10',
+      skill: 'Agile',
+      progress: '70%',
+    },
+    {
+      id: '11',
+      skill: 'Github Pages',
+      progress: '70%',
+    },
+    {
+      id: '12',
+      skill: 'JSON Server',
+      progress: '70%',
+    },
   ];
 
   educationData: any = [
@@ -178,7 +193,7 @@ Completed my Secondary school with 84.60%.`,
       location: 'Pune',
       timeline: 'Oct 2021 to Present',
       role: 'Software Developer',
-      work: 'Working as a Angular developer . Responsible for handling the UI in Angular and Managing the api calls in DotNet Core.',
+      work: 'Working as a Angular developer . Responsible for handling the UI in Angular . Developed and maintained Angular applications using Angular 2+. Created responsive and user-friendly UI . Participated in agile development process, including sprint planning, daily standups, and retrospectives',
     },
   ];
 
