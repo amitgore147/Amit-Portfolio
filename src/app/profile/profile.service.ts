@@ -78,79 +78,105 @@ export class ProfileService {
     },
   ];
 
-  about2 = `Software Developer with 2.2+ years of experience .
+  about2 = `.NET Full stack software Developer with over 2.5 years of experience in front-end and back-end development.
+  Experienced in collaborating with cross-functional teams to deliver high-quality code .
   Worked with Software Development Life Cycle(SDLC) and  agile methodologies .
-  Expertise in Angular 2+ versions, UI with Responsive Designs .
-  Have good understanding of HTML, CSS, JavaScript, TypeScript, Bootstrap, Angular, AWS S3, Cloudfront, Git and GitHub`;
+  Expertise in MSSQL, C#, Dotnet Core and Angular .
+  Have good understanding of MSSQL, C#, Dotnet Core, HTML, CSS, JavaScript, TypeScript, Bootstrap, Angular, AWS S3, Cloudfront, Git and GitHub`;
 
   about ='';
     // 'Lover of innovation and everything related to generate new knowledge. Face problems with a smile and solve them as soon as possible. Very calculated about the time I spend and work I do.';
   resumeurl =
-    'https://drive.google.com/file/d/1dFzOdjLdLPPBNC6-7iqMMbi9d8Zc55ND/view?usp=drive_link';
+    'https://drive.google.com/file/d/1pxSRh4V08rngb4rECTOC_TUk3_xdhsFE/view?usp=sharing';
 
   skillsData: any = [
-    // {
-    //   id: '1',
-    //   skill: 'MSSQL Server',
-    //   progress: '85%',
-    // },
+    {
+      id: '1',
+      skill: 'MSSQL Server',
+      progress: '85%',
+    },
     {
       id: '2',
+      skill: 'C#',
+      progress: '85%',
+    },
+    {
+      id: '3',
+      skill: '.NET Core',
+      progress: '85%',
+    },
+    {
+      id: '4',
+      skill: 'ASP.NET Core Web API',
+      progress: '85%',
+    },
+    {
+      id: '5',
+      skill: 'Entity Framework Core',
+      progress: '85%',
+    },
+    {
+      id: '6',
       skill: 'HTML',
       progress: '80%',
     },
     {
-      id: '3',
+      id: '7',
       skill: 'CSS',
       progress: '80%',
     },
     {
-      id: '4',
+      id: '8',
       skill: 'JavaScript',
       // progress: '75%',
     },
     {
-      id: '5',
+      id: '9',
       skill: 'TypeScript',
       // progress: '75%',
     },
     {
-      id: '6',
+      id: '10',
       skill: 'Angular',
       progress: '70%',
     },
     {
-      id: '7',
+      id: '11',
       skill: 'Bootstrap',
       // progress: '75%',
     },
     {
-      id: '8',
+      id: '12',
+      skill: 'Karma & Jasmine',
+      // progress: '75%',
+    },
+    {
+      id: '13',
       skill: 'AWS S3',
       // progress: '75%',
     },
     {
-      id: '9',
+      id: '14',
       skill: 'Cloudfront',
       progress: '70%',
     },
     {
-      id: '10',
+      id: '15',
       skill: 'Git, GitHub',
       progress: '70%',
     },
     {
-      id: '10',
+      id: '16',
       skill: 'Agile',
       progress: '70%',
     },
     {
-      id: '11',
+      id: '17',
       skill: 'Github Pages',
       progress: '70%',
     },
     {
-      id: '12',
+      id: '18',
       skill: 'JSON Server',
       progress: '70%',
     },
@@ -193,7 +219,7 @@ Completed my Secondary school with 84.60%.`,
       location: 'Pune',
       timeline: 'Oct 2021 to Present',
       role: 'Software Developer',
-      work: 'Working as a Angular developer . Responsible for handling the UI in Angular . Developed and maintained Angular applications using Angular 2+. Created responsive and user-friendly UI . Participated in agile development process, including sprint planning, daily standups, and retrospectives',
+      work: 'Working as a Dotnet Full Stack Developer . Developed and maintained RESTful APIs using ASP.NET Core Web API to facilitate communication between client applications and the server . Integrated RESTful APIs and other data sources into Angular applications. Managed HTTP requests and responses, handling data retrieval and updates .Developed and maintained Angular applications using Angular 2+. Created responsive and user-friendly UI . Participated in agile development process, including sprint planning, daily standups, and retrospectives',
     },
   ];
 
