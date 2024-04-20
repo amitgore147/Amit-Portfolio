@@ -32,9 +32,19 @@ export class ProfileService {
       imgUrl: 'assets/images/EcommProject.png',
       tech: 'Angular , HTML, CSS, JavaScript, TypeScript, JSON server',
     },
-
     {
       id: 3,
+      title:
+        'The EmployeeCentral is a web-based application built using .NET Core and Angular',
+      desc: '',
+      livedemo: 'https://amitgore147.github.io/EmployeeCentral-Angular-Web/',
+      githurl: 'https://github.com/amitgore147/EmployeeCentral-Angular-Web',
+      imgUrl: 'assets/images/EmployeeCentral.png',
+      tech: 'Angular 15 , ASP.NET Core, MSSQL',
+    },
+
+    {
+      id: 4,
       title:
         'A simple and classic implementation of the Tic Tac Toe (X and O) game in HTML, CSS, JavaScript.',
       desc: '',
@@ -45,7 +55,7 @@ export class ProfileService {
     },
 
     {
-      id: 4,
+      id: 5,
       title:
         'A landing page inspired by the design of Amazon. Built with HTML, CSS.',
       desc: '',
@@ -56,7 +66,7 @@ export class ProfileService {
     },
 
     {
-      id: 5,
+      id: 6,
       title:
         'The Rock Paper Scissors is a web-based application built using HTML, CSS, TypeScript',
       desc: '',
@@ -64,18 +74,7 @@ export class ProfileService {
       githurl: 'https://github.com/amitgore147/Rock-Paper-Scissors',
       imgUrl: 'assets/images/Rock-Paper-Scissors-Game.png',
       tech: 'HTML, CSS, JavaScript',
-    },
-
-    {
-      id: 6,
-      title:
-        'The EmployeeCentral is a web-based application built using .NET Core and Angular',
-      desc: '',
-      livedemo: 'https://amitgore147.github.io/EmployeeCentral-Angular-Web/',
-      githurl: 'https://github.com/amitgore147/EmployeeCentral-Angular-Web',
-      imgUrl: 'assets/images/EmployeeCentral.png',
-      tech: 'Angular 15 , ASP.NET Core, MSSQL',
-    },
+    }
   ];
 
   about2 = `.NET Full stack software Developer with over 2.5 years of experience in front-end and back-end development.
