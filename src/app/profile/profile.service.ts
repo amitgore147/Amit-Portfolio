@@ -15,6 +15,26 @@ export class ProfileService {
     {
       id: 1,
       title:
+        'The Hotel Management is a web-based application built using Spring Boot',
+      desc: '',
+      livedemo: 'https://github.com/amitgore147/LakeSide-Hotel',
+      githurl: 'https://github.com/amitgore147/LakeSide-Hotel',
+      imgUrl: 'assets/images/LakeSide-Hotel.png',
+      tech: 'MySQL, Java, Spring Boot, Spring Data JPA',
+    },
+    {
+      id: 2,
+      title:
+        'The E-Commerce is a web-based application built using Spring Boot Micro-Services',
+      desc: '',
+      livedemo: 'https://github.com/amitgore147/Ecommerce-MicroServices',
+      githurl: 'https://github.com/amitgore147/Ecommerce-MicroServices',
+      imgUrl: 'assets/images/Product-Management-System.png',
+      tech: 'MySQL, Java, Spring Boot, Spring Data JPA, Micro-Services',
+    },
+    {
+      id: 3,
+      title:
         'The Portfolio is a web-based application built using Angular , HTML, CSS, TypeScript',
       desc: '',
       livedemo: 'https://amitgore147.github.io/Amit-Portfolio/',
@@ -23,7 +43,7 @@ export class ProfileService {
       tech: 'Angular , HTML, CSS, JavaScript, TypeScript',
     },
     {
-      id: 2,
+      id: 4,
       title:
         'The E-Comm is a e-commerce website built using Angular , HTML, CSS, TypeScript',
       desc: '',
@@ -33,18 +53,7 @@ export class ProfileService {
       tech: 'Angular , HTML, CSS, JavaScript, TypeScript, JSON server',
     },
     {
-      id: 3,
-      title:
-        'The EmployeeCentral is a web-based application built using .NET Core and Angular',
-      desc: '',
-      livedemo: 'https://amitgore147.github.io/EmployeeCentral-Angular-Web/',
-      githurl: 'https://github.com/amitgore147/EmployeeCentral-Angular-Web',
-      imgUrl: 'assets/images/EmployeeCentral.png',
-      tech: 'Angular 15 , ASP.NET Core, MSSQL',
-    },
-
-    {
-      id: 4,
+      id: 5,
       title:
         'A simple and classic implementation of the Tic Tac Toe (X and O) game in HTML, CSS, JavaScript.',
       desc: '',
@@ -55,7 +64,7 @@ export class ProfileService {
     },
 
     {
-      id: 5,
+      id: 6,
       title:
         'A landing page inspired by the design of Amazon. Built with HTML, CSS.',
       desc: '',
@@ -66,7 +75,7 @@ export class ProfileService {
     },
 
     {
-      id: 6,
+      id: 7,
       title:
         'The Rock Paper Scissors is a web-based application built using HTML, CSS, TypeScript',
       desc: '',
@@ -77,11 +86,10 @@ export class ProfileService {
     }
   ];
 
-  about2 = `.NET Full stack software Developer with over 2.5 years of experience in front-end and back-end development.
+  about2 = `Java Developer with over 2.8 years of experience in back-end development .
+  Have good understanding of MySQL, Core Java, Spring Boot, Spring Data JPA, Micro-Services, JUnit, AWS, Git and GitHub .
   Experienced in collaborating with cross-functional teams to deliver high-quality code .
-  Worked with Software Development Life Cycle(SDLC) and  agile methodologies .
-  Expertise in MSSQL, C#, Dotnet Core and Angular .
-  Have good understanding of MSSQL, C#, Dotnet Core, HTML, CSS, JavaScript, TypeScript, Bootstrap, Angular, AWS S3, Cloudfront, Git and GitHub`;
+  Worked with Software Development Life Cycle(SDLC) and  agile methodologies`;
 
   about ='';
     // 'Lover of innovation and everything related to generate new knowledge. Face problems with a smile and solve them as soon as possible. Very calculated about the time I spend and work I do.';
@@ -91,94 +99,64 @@ export class ProfileService {
   skillsData: any = [
     {
       id: '1',
-      skill: 'MSSQL Server',
+      skill: 'MySQL',
       progress: '85%',
     },
     {
       id: '2',
-      skill: 'C#',
+      skill: 'Core Java',
       progress: '85%',
     },
     {
       id: '3',
-      skill: '.NET Core',
+      skill: 'Spring Boot',
       progress: '85%',
     },
     {
       id: '4',
-      skill: 'ASP.NET Core Web API',
+      skill: 'Spring Data JPA',
       progress: '85%',
     },
     {
       id: '5',
-      skill: 'Entity Framework Core',
+      skill: 'Micro-Services',
       progress: '85%',
     },
     {
       id: '6',
-      skill: 'HTML',
-      progress: '80%',
+      skill: 'REST APIs',
+       progress: '85%',
     },
     {
       id: '7',
-      skill: 'CSS',
-      progress: '80%',
+      skill: 'JUnit',
+       progress: '85%',
     },
     {
       id: '8',
-      skill: 'JavaScript',
-      // progress: '75%',
+      skill: 'AWS',
+       progress: '85%',
     },
     {
       id: '9',
-      skill: 'TypeScript',
-      // progress: '75%',
+      skill: 'Git',
+      progress: '85%',
     },
     {
       id: '10',
-      skill: 'Angular',
-      progress: '70%',
+      skill: 'GitHub',
+      progress: '85%',
     },
     {
       id: '11',
-      skill: 'Bootstrap',
-      // progress: '75%',
-    },
-    {
-      id: '12',
-      skill: 'Karma & Jasmine',
-      // progress: '75%',
-    },
-    {
-      id: '13',
-      skill: 'AWS S3',
-      // progress: '75%',
-    },
-    {
-      id: '14',
-      skill: 'Cloudfront',
-      progress: '70%',
-    },
-    {
-      id: '15',
-      skill: 'Git, GitHub',
-      progress: '70%',
-    },
-    {
-      id: '16',
       skill: 'Agile',
-      progress: '70%',
+      progress: '85%',
     },
     {
-      id: '17',
-      skill: 'Github Pages',
-      progress: '70%',
-    },
-    {
-      id: '18',
-      skill: 'JSON Server',
-      progress: '70%',
-    },
+      id: '11',
+      skill: 'JIRA',
+      progress: '85%',
+    }
   ];
 
   educationData: any = [
@@ -218,7 +196,7 @@ Completed my Secondary school with 84.60%.`,
       location: 'Pune',
       timeline: 'Oct 2021 to Present',
       role: 'Software Developer',
-      work: 'Working as a Dotnet Full Stack Developer . Developed and maintained RESTful APIs using ASP.NET Core Web API to facilitate communication between client applications and the server . Integrated RESTful APIs and other data sources into Angular applications. Managed HTTP requests and responses, handling data retrieval and updates .Developed and maintained Angular applications using Angular 2+. Created responsive and user-friendly UI . Participated in agile development process, including sprint planning, daily standups, and retrospectives',
+      work: 'Working as a Java Backend Developer . Developed and maintained RESTful APIs using Spring Boot to facilitate communication between client applications and the server . Integrated MySQL for efficient data storage and retrieval, optimizing database queries and indexing . Developed and maintained microservices using Spring Cloud, ensuring modular and scalable architecture . Participated in Agile development processes, including sprint planning, daily standups, and retrospectives . Utilized Git and GitHub for version control and collaboration',
     },
   ];
 
