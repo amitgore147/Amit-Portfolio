@@ -89,7 +89,7 @@ export class ProfileService {
   about2 = `Java Developer with 3 years of experience in back-end development .
   Have good understanding of MySQL, Core Java, Spring Boot, Spring Data JPA, Micro-Services, JUnit, AWS, Git and GitHub .
   Experienced in collaborating with cross-functional teams to deliver high-quality code .
-  Worked with Software Development Life Cycle(SDLC) and  agile methodologies`;
+  Worked with Software Development Life Cycle(SDLC) and agile methodologies`;
 
   about ='';
     // 'Lover of innovation and everything related to generate new knowledge. Face problems with a smile and solve them as soon as possible. Very calculated about the time I spend and work I do.';
