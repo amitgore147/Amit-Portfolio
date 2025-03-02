@@ -86,7 +86,7 @@ export class ProfileService {
     }
   ];
 
-  about2 = `Java Developer with over 2.8 years of experience in back-end development .
+  about2 = `Java Developer with over 3 years of experience in back-end development .
   Have good understanding of MySQL, Core Java, Spring Boot, Spring Data JPA, Micro-Services, JUnit, AWS, Git and GitHub .
   Experienced in collaborating with cross-functional teams to deliver high-quality code .
   Worked with Software Development Life Cycle(SDLC) and  agile methodologies`;
