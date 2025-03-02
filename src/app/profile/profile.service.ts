@@ -94,7 +94,7 @@ export class ProfileService {
   about ='';
     // 'Lover of innovation and everything related to generate new knowledge. Face problems with a smile and solve them as soon as possible. Very calculated about the time I spend and work I do.';
   resumeurl =
-    'https://drive.google.com/file/d/1pxSRh4V08rngb4rECTOC_TUk3_xdhsFE/view?usp=sharing';
+    'https://drive.google.com/file/d/16wlRkf_ovxqVy4qGRIIfB_HWuu9QoVrg/view?usp=sharing';
 
   skillsData: any = [
     {
